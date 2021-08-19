@@ -47,8 +47,6 @@ plt.tick_params(which='both', width=0.8)
 plt.tick_params(which='major', length=5)
 plt.tick_params(which='minor', length=2.5)
 
-# Título do gráfico.
-
 
 # Limites dos eixos na hora de plotar. 
 plt.axis((t_inicial - 0.1, t_final + 0.1, 0.0, 1.5))
