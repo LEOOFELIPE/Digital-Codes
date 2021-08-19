@@ -51,7 +51,7 @@ plt.tick_params(which='minor', length=2.5)
 # Limites dos eixos na hora de plotar. 
 plt.axis((t_inicial - 0.1, t_final + 0.1, 0.0, 1.5))
 
-# Plotando a solução numérica.
+
 plt.plot(t, y, '-go',lw = 3, label = 'Discretizado')
 plt.plot(t, u, lw = 3, color = 'blue', label = 'Entrada')
 plt.title(u'Resposta ao Degrau', fontsize = 24)
